@@ -1,0 +1,71 @@
+{"VCAP_SERVICES":{
+  "": [
+        {
+			"label":"enterprise-messaging",
+			"credentials":
+{
+ "management": [
+  {
+   "oa2": {
+    "clientid": "sb-clone-xbem-service-broker-fee4a1eea8a8467b97a5bd42b4c7c70d-clone!b65265|xbem-service-broker-!b2436",
+    "clientsecret": "7cdd3fad-bc61-48e9-8588-c564409ff5eb$lyvEq7LK90jTa3KSVxi65ILzD0G8OG6ziw6DOubav5Y=",
+    "granttype": "client_credentials",
+    "tokenendpoint": "https://6b007e78trial.authentication.eu10.hana.ondemand.com/oauth/token"
+   },
+   "uri": "https://enterprise-messaging-hub-backend.cfapps.eu10.hana.ondemand.com"
+  }
+ ],
+ "messaging": [
+  {
+   "broker": {
+    "type": "sapmgw"
+   },
+   "oa2": {
+    "clientid": "sb-clone-xbem-service-broker-fee4a1eea8a8467b97a5bd42b4c7c70d-clone!b65265|xbem-service-broker-!b2436",
+    "clientsecret": "7cdd3fad-bc61-48e9-8588-c564409ff5eb$lyvEq7LK90jTa3KSVxi65ILzD0G8OG6ziw6DOubav5Y=",
+    "granttype": "client_credentials",
+    "tokenendpoint": "https://6b007e78trial.authentication.eu10.hana.ondemand.com/oauth/token"
+   },
+   "protocol": [
+    "amqp10ws"
+   ],
+   "uri": "wss://enterprise-messaging-messaging-gateway.cfapps.eu10.hana.ondemand.com/protocols/amqp10ws"
+  },
+  {
+   "broker": {
+    "type": "sapmgw"
+   },
+   "oa2": {
+    "clientid": "sb-clone-xbem-service-broker-fee4a1eea8a8467b97a5bd42b4c7c70d-clone!b65265|xbem-service-broker-!b2436",
+    "clientsecret": "7cdd3fad-bc61-48e9-8588-c564409ff5eb$lyvEq7LK90jTa3KSVxi65ILzD0G8OG6ziw6DOubav5Y=",
+    "granttype": "client_credentials",
+    "tokenendpoint": "https://6b007e78trial.authentication.eu10.hana.ondemand.com/oauth/token"
+   },
+   "protocol": [
+    "mqtt311ws"
+   ],
+   "uri": "wss://enterprise-messaging-messaging-gateway.cfapps.eu10.hana.ondemand.com/protocols/mqtt311ws"
+  },
+  {
+   "broker": {
+    "type": "saprestmgw"
+   },
+   "oa2": {
+    "clientid": "sb-clone-xbem-service-broker-fee4a1eea8a8467b97a5bd42b4c7c70d-clone!b65265|xbem-service-broker-!b2436",
+    "clientsecret": "7cdd3fad-bc61-48e9-8588-c564409ff5eb$lyvEq7LK90jTa3KSVxi65ILzD0G8OG6ziw6DOubav5Y=",
+    "granttype": "client_credentials",
+    "tokenendpoint": "https://6b007e78trial.authentication.eu10.hana.ondemand.com/oauth/token"
+   },
+   "protocol": [
+    "httprest"
+   ],
+   "uri": "https://enterprise-messaging-pubsub.cfapps.eu10.hana.ondemand.com"
+  }
+ ],
+ "serviceinstanceid": "fee4a1ee-a8a8-467b-97a5-bd42b4c7c70d",
+ "xsappname": "clone-xbem-service-broker-fee4a1eea8a8467b97a5bd42b4c7c70d-clone!b65265|xbem-service-broker-!b2436"
+}
+		}
+		]
+}
+}
